@@ -1,0 +1,40 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0px;
+  }
+  .superover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f172a;
+    min-height: 100vh;
+  }
+  .heading {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .image-logo {
+    height: 200px;
+    width: 200px;
+  }
+  @media screen and (min-width: 768px) {
+    .image-logo {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .heading {
+      font-family: roboto;
+      font-weight: 50px;
+    }
+  }
+
+
+  
